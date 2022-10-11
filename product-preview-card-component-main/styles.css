@@ -1,0 +1,81 @@
+/* font-family: 'Fraunces', serif;
+
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f2ebe3;
+}
+
+.product-card {
+  width: 90%;
+  margin: 2rem auto;
+  background-color: white;
+  border-radius: 8px;
+  padding-bottom: 0.4rem;
+}
+
+.product-card img {
+  max-width: 100%;
+  overflow: clip;
+  border-radius: 8px 8px 0 0;
+}
+
+.product-card .text-contents {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 0.8rem;
+}
+
+.product-card h1  {
+  font-family: 'Fraunces', serif;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.product-card p {
+  color: #6c7289;
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+.product-card .category {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.product-card a {
+  display: block;
+  background-color: #3c8067;
+  color: white;
+  text-decoration: none;
+  line-height: 3;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.product-card .price {
+  font-family: 'Fraunces', serif;
+  color: #3c8067;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.product-card .rebate {
+  padding-left: 1rem;
+  vertical-align: super;
+  text-decoration: line-through;
+}
+
+.product-card a span {
+  padding-left: 0.4rem;
+}
